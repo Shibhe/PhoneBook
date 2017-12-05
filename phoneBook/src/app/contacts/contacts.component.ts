@@ -22,6 +22,7 @@ export class ContactsComponent implements OnInit {
   addContact(cont){
     this.listContact.push(cont);
     this.count = this.count + 1;
+    alert("Successfully Added");
     this.contact = new Contacts();
   }
 }
